@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <RelativeLayout
+        android:id="@+id/rlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20" >
+
+        <TextView
+            android:id="@+id/tvViewInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="REDFOOTTECH"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#500"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/tvCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Caption"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvConnectStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Disconnected"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="#eee"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/etInfoTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="center_vertical|top"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:background="#ccc"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/etInfoBottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="center_vertical|top"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnSwipStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swipe Now" />
+
+            <Button
+                android:id="@+id/btnSwipeCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AES" />
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Test" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

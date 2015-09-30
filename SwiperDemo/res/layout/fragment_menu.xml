@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32394b"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/backgradient_menu_header01" >
+
+                <TextView
+                    android:id="@+id/tvCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="Menu / Settings"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ddd" />
+
+            </RelativeLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnPaymentTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Payment Test"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnTransfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Transfer Test"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnPaypalTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="PayPal Payment Test"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#2fff" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Navigation"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#bbb" />
+            </RelativeLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnSwipeHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Swipe Home Page"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Show Other Details"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#2fff" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="MSR Data"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#bbb" />
+
+            </RelativeLayout>
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnAutoConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Start Auto Config"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnStopAutoConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Stop Auto Config"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnMSRReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Review MSR Data"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnTDES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Change MSR TDES Encrypted"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSerialNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Get Serial Number"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnGetVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Get Reader Version"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+            <Button
+                android:id="@+id/btnAudioJackSet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_hover"
+                android:text="Review Audio Jack Settings"
+                android:textColor="#fff" />
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/view_separator" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
